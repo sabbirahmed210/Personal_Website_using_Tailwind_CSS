@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-colors-primary text-colors-white scroll-smooth">
+    
+    <header class="bg-colors-primary  py-4 fixed w-full z-50">
+        <div class="container w-11/12 md:w-10/12">
+            <nav class="flex justify-between items-center">
+                <div class="text-colors-white font-bold text-2xl">
+                    <h1><a href="index.html">Tail<span class="text-colors-secondary">W</span>ind<span class="text-colors-secondary">C</span>ss</a></h1>
+                </div>
+                <div class="ml-auto mr-10 lg:mr-6">
+                    <ul id="mainMenu" class="space-y-3 lg:space-y-0 lg:flex items-center lg:space-x-12 xl:space-x-16 font-semibold tracking-wide uppercase absolute lg:relative top-16 left-0 lg:top-0 lg:left-0 text-center lg:text-left hidden lg:visible w-full lg:w-auto bg-colors-primary-light lg:bg-colors-primary  p-6 lg:p-0">
+                        <li><a class="hover:text-colors-secondary duration-200 ease-in" href="#home">Home</a></li>
+                        <li><a class="hover:text-colors-secondary duration-200 ease-in" href="#">About Us</a></li>
+                        <li><a class="hover:text-colors-secondary duration-200 ease-in" href="#">Services</a></li>
+                        <li><a class="hover:text-colors-secondary duration-200 ease-in" href="#">Portfolio</a></li>
+                        <li><a class="hover:text-colors-secondary duration-200 ease-in" href="#">Contact</a></li>
+                        <button class="btn lg:hidden">Sign In</button>
+                    </ul>
+                </div>
+                <div>
+                    <button class="btn btnHeader">Sign In</button>
+                </div>
+                <div id="toggleIcon" class="lg:hidden relative cursor-pointer">
+                    <div class="w-7 h-0.5 bg-colors-white my-1"></div>
+                    <div class="w-7 h-0.5 bg-colors-white my-1.5"></div>
+                    <div class="w-7 h-0.5 bg-colors-white my-1"></div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ----------------- Hero Section --------------------- -->
+    <main class="py-6 relative">
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+        <div class="container w-11/12 md:w-10/12 grid md:grid-cols-2 items-center mt-20">
+            <div class="overflow-hidden">
+                <h1 class="hTitle first-letter:text-7xl">My mission is to make your business better through technology.</h1>
+                <p class="text-justify">Hello! This is Sabbir Ahmed. A Professional Wordpress Developer & Front-end Developer. I am working remotely with clients from all over the world since 2020. I have a diverse set of experience in HTML5, CSS3, Bootstrap5 Tailwind Css, JavaScript, Jquery, Php & WordPress. I can build any kind of website using WordPress. I’ve created more than 30+ WordPress & 20+ Front-end website in my web development career.</p>
+                <button class="btn mt-6">Contact Me</button>
+            </div>
+            <div class=" text-right ml-auto mt-6 animate-pulse">
+                <img src="./assets/sabbir.png" alt="">
+            </div>
+        </div>
+
+    </main>
+    <!-- ----------------- Hero Section --------------------- -->
+
+
+
+     <!-- Features Start  Section -->
+
+     <section class="py-10 bg-colors-primary-light" >
+        <div class="container w-11/12 md:w-10/12">
+            <div class="text-center lg:w-6/12 md:w-8/12 m-auto">
+                <h2 class="hTitle"><span class="text-colors-secondary">Our</span> Features</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10">
+                <!-- Card One -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                          </svg>
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Web Design</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                          </svg>
+                          
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Web Development</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                          </svg>
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Google SEO Expert</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 002.25-2.25v-15a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 4.5v15a2.25 2.25 0 002.25 2.25z" />
+                          </svg>
+                          
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Front-end Specialist</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                          </svg>
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Google SEO Expert</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="features_item">
+                    <div class="w-[75px] bg-colors-secondary py-2 px-4 rounded-lg">
+                     <span class="">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                          </svg>
+                     </span>
+                    </div>
+                    <h1 class="subHeading">Google SEO Expert</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae iste exercitationem qui labore veniam sequi repellat quisquam dolores rerum ut!</p>
+                </div>
+       
+            </div>
+        </div>
+     </section>
+
+
+     <!-- --------------------------- -->
+
+     <section class="relative py-10">
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+        <div class="container w-11/12 md:w-10/12">
+            <div class="main_div grid md:grid-cols-2 gap-10 items-center">
+                <div class="animate-pulse">
+                    <img src="./assets/hero.png" alt="">
+                </div>
+                <div>
+                    <h4 class="font-semibold text-colors-secondary">Saving Your Money</h4>
+                    <h3 class="hTitle">Saving Money</h3>
+                    <h1 class="subHeading">Cost Effective Wordpress Website</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat, cumque facere quaerat necessitatibus iure quibusdam obcaecati quas magni debitis!</p>
+                    <button class="btn mt-6">Read More</button>
+                </div>
+
+            </div>
+        </div>
+     </section>
+
+
+     <!-- How It Work Section -->
+     <section class="bg-gradient-to-r from-colors-primary to-colors-primary-light py-10">
+        <div class="container w-11/12 md:w-10/12">
+            <div class="text-center lg:w-6/12 md:w-8/12 m-auto">
+                <h2 class="hTitle"><span class="text-colors-secondary">How</span> It Works</h2>
+          
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+            </div>
+
+            <div class="circle_blob h-16 w-16 bg-gradient-to-t from-colors-blob to-colors-secondary rounded-full blur-sm animate-pulse"></div>
+
+            <!------------- Work Items--------- -->
+         <div class="">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4 mt-10">
+
+                <!-- Item 01 -->
+                <div class="hover:shadow-inner hover:shadow-colors-gray duration-200 ease-in rounded-sm  py-8 px-5 mt-5 text-center">
+                    <div class="p-3 bg-colors-gray/40 text-center text-5xl font-bold inline-block rounded-lg hover:bg-colors-secondary duration-200 ease-in">
+                        <h1>01</h1>
+                    </div>
+                    <h2 class="subHeading">Install Your App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium numquam earum modi. Tempora, eius non illum perferendis earum sint eos?</p>
+                </div>
+
+                <!-- Item 02 -->
+                <div class="hover:shadow-inner hover:shadow-colors-gray duration-200 ease-in rounded-sm  py-8 px-5 mt-5 text-center">
+                    <div class="p-3 bg-colors-secondary text-center text-5xl font-bold inline-block rounded-lg">
+                        <h1>02</h1>
+                    </div>
+                    <h2 class="subHeading">Install Your App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium numquam earum modi. Tempora, eius non illum perferendis earum sint eos?</p>
+                </div>
+
+                <!-- Item 03 -->
+                <div class="hover:shadow-inner hover:shadow-colors-gray duration-200 ease-in rounded-sm  py-8 px-5 mt-5 text-center">
+                    <div class="p-3 bg-colors-gray/40 text-center text-5xl font-bold inline-block rounded-lg hover:bg-colors-secondary duration-200 ease-in">
+                        <h1>03</h1>
+                    </div>
+                    <h2 class="subHeading">Install Your App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium numquam earum modi. Tempora, eius non illum perferendis earum sint eos?</p>
+                </div>
+                <div class="hover:shadow-inner hover:shadow-colors-gray duration-200 ease-in rounded-sm  py-8 px-5 mt-5 text-center lg:hidden">
+                    <div class="p-3 bg-colors-gray/40 text-center text-5xl font-bold inline-block rounded-lg hover:bg-colors-secondary duration-200 ease-in">
+                        <h1>04</h1>
+                    </div>
+                    <h2 class="subHeading">Install Your App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium numquam earum modi. Tempora, eius non illum perferendis earum sint eos?</p>
+                </div>
+
+           
+            </div>
+
+         </div>
+        </div>
+     </section>
+     <!-- How It Work Section -->
+
+
+     <!-------------- Testimonial Section ------------------- -->
+     <section class="py-10">
+        <div class="container w-11/12 md:w-10/12">
+
+
+            <!-- Default Title -->
+            <div class="text-center lg:w-6/12 md:w-8/12 m-auto">
+                <h4 class="font-semibold text-colors-secondary">Client's Review</h4>
+                <h2 class="hTitle"><span class="text-colors-secondary">What</span> Client Say</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+            </div>
+
+        
+
+            <div class="mt-8">
+                <div class="flex items-center justify-center flex-wrap mb-10">
+                    <img src="./assets/user1.jpg" alt="" class="w-20 h-20 rounded-full cursor-pointer m-2 p-1 user_pic active_pic">
+                    <img src="./assets/user2.jpg" alt="" class="w-20 h-20 rounded-full cursor-pointer m-2 p-1 user_pic">
+                    <img src="./assets/user3.jpg" alt="" class="w-20 h-20 rounded-full cursor-pointer m-2 p-1 user_pic">
+                    <img src="./assets/user4.jpg" alt="" class="w-20 h-20 rounded-full cursor-pointer m-2 p-1 user_pic">
+                    <img src="./assets/user5.jpg" alt="" class="w-20 h-20 rounded-full cursor-pointer m-2 p-1 user_pic">
+                </div>
+
+                <div class="grid place-items-start text-center m-auto md:w-3/5 min-h[40vh]">
+                    <div class="user_text active_text">
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt, ex sit tenetur beatae nihil, voluptates ullam, eum pariatur blanditiis sed ut eius vitae maxime?</p>
+                        <h1 class="font-semibold text-2xl text-colors-secondary">Mohammad Rahat</h1>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="user_text">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt, ex sit tenetur beatae nihil, voluptates ullam, eum pariatur blanditiis sed ut eius vitae maxime?</p>
+                        <h1 class="font-semibold text-2xl text-colors-secondary">Mohammad Rahat</h1>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="user_text">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt, ex sit tenetur beatae nihil, voluptates ullam, eum pariatur blanditiis sed ut eius vitae maxime?</p>
+                        <h1 class="font-semibold text-2xl text-colors-secondary">Mohammad Rahat</h1>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="user_text">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt, ex sit tenetur beatae nihil, voluptates ullam, eum pariatur blanditiis sed ut eius vitae maxime?</p>
+                        <h1 class="font-semibold text-2xl text-colors-secondary">Mohammad Rahat</h1>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="user_text">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt, ex sit tenetur beatae nihil, voluptates ullam, eum pariatur blanditiis sed ut eius vitae maxime?</p>
+                        <h1 class="font-semibold text-2xl text-colors-secondary">Mohammad Rahat</h1>
+                        <span>Web Developer</span>
+                    </div>
+
+                </div>
+              
+            </div>
+            <div class="circle_blob h-16 w-16 bg-gradient-to-t from-colors-blob to-colors-secondary rounded-full blur-sm animate-pulse ml-auto"></div>
+        </div>
+     </section>
+     <!-------------- Testimonial Section ------------------- -->
+
+     <!------------- Pricing table ----------------->
+     <section class="py-10 bg-colors-primary-light">
+        <div class="container w-11/12 md:w-10/12">
+
+             <!-- Default Title -->
+            <div class="text-center lg:w-6/12 md:w-8/12 m-auto">
+                <h4 class="font-semibold text-colors-secondary">Pricing</h4>
+                <h2 class="hTitle"><span class="text-colors-secondary">Get</span> In Reasonable Price</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+
+                <div class="mt-10 flex items-center justify-center gap-4">
+                    <p>Bill Monthly</p>
+
+                    <label for="" class="relative inline-block w-20 h-8 rounded-full">
+                        <input type="checkbox" id="toggleBtns" class="peer opacity-0 h-0 w-0 " value="">
+                        <span class="absolute top-0 left-0 right-0 bottom-0 bg-colors-primary-light border border-colors-gray  rounded-full duration-300 before:contect-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-colors-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-colors-secondary"></span>
+                     
+
+                    </label>
+                    <p>Bill Anually</p>
+                </div>
+            </div>
+
+            <div  class="grid  sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+
+                <!--  Pricing Item 1 -->
+                <div class="py-10 px-5 shadow-md shadow-colors-gray border border-colors-gray rounded-md relative overflow-hidden hover:-translate-y-2 duration-300">
+                    <div class="h-56 w-56 bg-colors-blob opacity-20 blur-3xl absolute"></div>
+                    <div class="before:content-[''] before:h-5 before:w-60 before:bg-colors-secondary before:absolute before:rotate-45 before:-right-20"></div>
+                        <div class="relative">
+                            <h1 class="font-bold text-5xl before:content-['$'] before:absolute before:top-0 before:-left-3 before:text-lg">85<span class="text-sm">/ Per Month</span></h1>
+                        </div>
+                        <h1 class="text-2xl font-semibold mt-6 mb-4">Basic</h1>
+                        <p class="my-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, omnis!</p>
+                        <div>
+                            <ul>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                        
+                     
+                   
+                       
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn mt-6">Buy Now</button>
+                        </div>
+                    </div>
+
+                <!--  Pricing Item 2 -->
+
+                    <div class="py-10 px-5 shadow-md shadow-colors-gray border border-colors-gray rounded-md relative overflow-hidden hover:-translate-y-2 duration-300">
+                        <div class="h-56 w-56 bg-colors-blob opacity-20 blur-3xl absolute"></div>
+                        <div class="before:content-[''] before:h-5 before:w-60 before:bg-colors-secondary before:absolute before:rotate-45 before:-right-20"></div>
+                            <div class="relative">
+                                <h1 class="font-bold text-5xl before:content-['$'] before:absolute before:top-0 before:-left-3 before:text-lg">125<span class="text-sm">/ Per Month</span></h1>
+                            </div>
+                            <h1 class="text-2xl font-semibold mt-6 mb-4">Mediam</h1>
+                            <p class="my-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, omnis!</p>
+                            <div>
+                                <ul>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                    <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                            
+                         
+                       
+                           
+                                </ul>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn mt-6">Buy Now</button>
+                            </div>
+                        </div>
+
+                <!--  Pricing Item 3  -->
+                <div class="py-10 px-5 shadow-md shadow-colors-gray border border-colors-gray rounded-md relative overflow-hidden hover:-translate-y-2 duration-300">
+                    <div class="h-56 w-56 bg-colors-blob opacity-20 blur-3xl absolute"></div>
+                    <div class="before:content-[''] before:h-5 before:w-60 before:bg-colors-secondary before:absolute before:rotate-45 before:-right-20"></div>
+                        <div class="relative">
+                            <h1 class="font-bold text-5xl before:content-['$'] before:absolute before:top-0 before:-left-3 before:text-lg">215<span class="text-sm">/ Per Month</span></h1>
+                        </div>
+                        <h1 class="text-2xl font-semibold mt-6 mb-4">Advance</h1>
+                        <p class="my-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, omnis!</p>
+                        <div>
+                            <ul>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                                <li><i class="fa-sharp fa-solid fa-check fa-beat-fade mr-3 my-3 text-colors-secondary"></i> Expense Management</li>
+                        
+                     
+                   
+                       
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn mt-6">Buy Now</button>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+     </section>
+     <!-- Pricing table -->
+
+
+     <!-- Blogs Section -->
+     <section class="py-10">
+        <div class="container w-11/12 md:w-10/12">
+
+             <!-- Default Title -->
+            <div class="text-center w-full lg:w-6/12 md:w-8/12 m-auto">
+                <h4 class="font-semibold text-colors-secondary">Our Latest Work</h4>
+                <h2 class="hTitle"><span class="text-colors-secondary">Latest</span> Update, Solution & Company News</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+
+            </div>
+
+                <div class="grid md:grid-cols-3 gap-4 mt-10">
+
+                    <!-- Blog Item 1 -->
+                    <div class="mt-4 shadow-md shadow-colors-primary-light">
+                        <div class="w-full overflow-hidden">
+                            <img class="rounded-lg hover:scale-110 duration-300 cursor-pointer" src="./assets/blog1.jpg" alt="">
+                        </div>
+                        <div class="flex space-x-6 mt-4">
+                            <div>24 May 2023</div>
+                            <div><i class="fa-sharp fa-solid fa-message"></i> 20</div>
+                            <div>Public: 2 min ago</div>
+                        </div>
+                        
+                        <h1 class="text-2xl font-semibold my-3">5 Ways to Increase your Onlien Business in 2023</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, esse magni quod quas adipisci et pariatur.</p>
+        
+                        <button class="mt-4"><a class="underline hover:text-colors-secondary" href="#">Read More</a></button>
+        
+                    </div>
+
+
+                    <!-- Blog Item 2 -->
+                    <div class="mt-4 shadow-md shadow-colors-primary-light">
+                        <div class="w-full overflow-hidden">
+                            <img class="rounded-lg hover:scale-110 duration-300 cursor-pointer" src="./assets/blog2.jpg" alt="">
+                        </div>
+                        <div class="flex space-x-6 mt-4">
+                            <div>24 May 2023</div>
+                            <div><i class="fa-sharp fa-solid fa-message"></i> 20</div>
+                            <div>Public: 2 min ago</div>
+                        </div>
+                        
+                        <h1 class="text-2xl font-semibold my-3">5 Ways to Increase your Onlien Business in 2023</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, esse magni quod quas adipisci et pariatur.</p>
+        
+                        <button class="mt-4"><a class="underline hover:text-colors-secondary" href="#">Read More</a></button>
+        
+                    </div>
+
+
+                    <!-- Blog Item 3 -->
+                    <div class="mt-4 shadow-md shadow-colors-primary-light">
+                        <div class="w-full overflow-hidden">
+                            <img class="rounded-lg hover:scale-110 duration-300 cursor-pointer" src="./assets/blog1.jpg" alt="">
+                        </div>
+                        <div class="flex space-x-6 mt-4">
+                            <div>24 May 2023</div>
+                            <div><i class="fa-sharp fa-solid fa-message"></i> 20</div>
+                            <div>Public: 2 min ago</div>
+                        </div>
+                        
+                        <h1 class="text-2xl font-semibold my-3">5 Ways to Increase your Onlien Business in 2023</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, esse magni quod quas adipisci et pariatur.</p>
+        
+                        <button class="mt-4"><a class="underline hover:text-colors-secondary" href="#">Read More</a></button>
+        
+                    </div>
+
+
+        </div>
+     </section>
+     <!-- Blogs Section -->
+
+
+     <!-- Contact Section Start -->
+     <section class="py-10 bg-colors-primary-light">
+        <div class="container w-11/12 md:w-10/12">
+
+             <!-- Default Title -->
+            <div class="text-center  lg:w-6/12 md:w-8/12 m-auto">
+                <h4 class="font-semibold text-colors-secondary">Have A Question?</h4>
+                <h2 class="hTitle"><span class="text-colors-secondary">Get</span> In Touch</h2>
+            
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit magni saepe soluta totam molestias corrupti.</p>
+                <div class="h-10 w-1 bg-colors-secondary m-auto mt-8 rounded-full animate-bounce"></div>
+
+            </div>
+
+            <!--  Contact Form Start -->
+            <div class="md:w-8/12 m-auto mt-10">
+                <form action="#">
+                    <div class="mt-6 grid md:grid-cols-2 gap-4">
+                        <input type="text" class="p-3 rounded-md text-colors-light bg-colors-primary-light focus:outline-none  border border-colors-gray focus:border-colors-secondary" placeholder="Your Name">
+                        <input type="email" class="p-3 rounded-md text-colors-light bg-colors-primary-light focus:outline-none  border border-colors-gray focus:border-colors-secondary" placeholder="Your Email Address">
+                        <input type="phone" class="p-3 rounded-md text-colors-light bg-colors-primary-light focus:outline-none  border border-colors-gray focus:border-colors-secondary" placeholder="Your Phone Number">
+                        <input type="text" class="p-3 rounded-md text-colors-light bg-colors-primary-light focus:outline-none  border border-colors-gray focus:border-colors-secondary" placeholder="Your Company">
+             
+                    </div>
+                    <textarea class="w-full mt-8 p-3 rounded-md text-colors-light bg-colors-primary-light focus:outline-none  border border-colors-gray focus:border-colors-secondary" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+                    <button class="btn mt-6" type="submit">Send Message</button>
+                </form>
+            </div>
+            <!--  Contact Form Start -->
+
+
+        </div>
+     </section>
+     <!-- Contact Section End -->
+
+
+
+
+     <!-- ----------- Footer Area Start--------------- -->
+
+     <footer>
+        <div class="container w-11/12 md:w-10/12">
+            <!-- Footer Top Start -->
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 py-12">
+
+
+            <div class="c_item mt-6">
+                <h2 class="text-xl font-semibold mb-4">About Us</h2>
+                    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel culpa, unde repudiandae quis velit quas.</p>
+                        <h2 class="text-xl font-semibold mt-4">Follow Us:</h2>
+                    <div>
+                        <ul class="mt-3 inline-flex space-x-3">
+                            <li><a class="text-lg hover:text-colors-secondary hover:text-xl duration-300" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a class="text-lg hover:text-colors-secondary hover:text-xl duration-300" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a class="text-lg hover:text-colors-secondary hover:text-xl duration-300" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="text-lg hover:text-colors-secondary hover:text-xl duration-300" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                       
+                        </ul>
+                    </div>
+                </div>
+              
+                
+            <div class="c_item mt-6">
+                <h2 class="text-xl font-semibold mb-4">Quick Links</h2>
+                
+                    <div>
+                        <ul class="mt-3 space-y-3">
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Home</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">About Us</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Featires</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Testimonial</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Blogs</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Contact</a></li>
+                       
+                        </ul>
+                    </div>
+                </div>
+
+
+            <div class="c_item mt-6">
+                <h2 class="text-xl font-semibold mb-4">Help</h2>
+                
+                    <div>
+                        <ul class="mt-3 space-y-3">
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Home</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">About Us</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Partners</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Careers</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Privacy Policy</a></li>
+                         <li><a class="hover:text-colors-secondary duration-200" href="#">Terms & Condition</a></li>
+                       
+                        </ul>
+                    </div>
+                </div>
+
+
+            <div class="c_item mt-6">
+                <h2 class="text-xl font-semibold mb-4">Newslater</h2>
+                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel culpa, unde repudiandae quis velit quas.</p>
+
+                <form action="#" class="mt-6">
+                    <input type="email" class="p-2 rounded-md text-colors-primary focus:outline-none  border border-colors-gray focus:border-colors-secondary w-full" placeholder="Your Email Address">
+                </form>
+                
+                    <div>
+               
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Footer Top End -->
+
+            <!-- Footer Bottom Start -->
+            <div class="py-5 text-center border-t-2 border-colors-gray">
+                <p class="mb-0"><a class="text-colors-secondary" href="#">Sabbir Ahmed</a> .2023 All Right Reserved</p>
+            </div>
+            <!-- Footer Bottom End -->
+        </div>
+    </footer>
+     <!-- ----------- Footer Area End--------------- -->
+
+
+
+    
+    <script type="module" crossorigin src="./js/custom.js"></script>
+</body>
+</html>
